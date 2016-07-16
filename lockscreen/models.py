@@ -7,7 +7,7 @@ from django.db import models
 
 class Card(models.Model):
     name = models.CharField(max_length=50)
-    image_url = models.CharField(max_length=255)
+    image_url = models.CharField(max_length=1000)
     age = models.IntegerField(default=0)
     height = models.IntegerField(default=0)
     region = models.CharField(max_length=50)
