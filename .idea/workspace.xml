@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcc331b7-6d4f-4b76-be2b-419dca3c51dc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lockscreen/serializers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lockscreen/admin.py" afterPath="$PROJECT_DIR$/lockscreen/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lockscreen/models.py" afterPath="$PROJECT_DIR$/lockscreen/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lockscreen/views.py" afterPath="$PROJECT_DIR$/lockscreen/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loveslide/settings.py" afterPath="$PROJECT_DIR$/loveslide/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/loveslide/urls.py" afterPath="$PROJECT_DIR$/loveslide/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lockscreen/serializers.py" afterPath="$PROJECT_DIR$/lockscreen/serializers.py" />
     </list>
     <ignored path="loveslide.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="serializers.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lockscreen/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            <state relative-caret-position="105">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -67,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lockscreen/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -109,10 +102,10 @@
         <option value="$PROJECT_DIR$/lockscreen/admin.py" />
         <option value="$PROJECT_DIR$/loveslide/settings.py" />
         <option value="$PROJECT_DIR$/lockscreen/migrations/serializers.py" />
-        <option value="$PROJECT_DIR$/lockscreen/serializers.py" />
         <option value="$PROJECT_DIR$/lockscreen/views.py" />
         <option value="$PROJECT_DIR$/loveslide/urls.py" />
         <option value="$PROJECT_DIR$/lockscreen/models.py" />
+        <option value="$PROJECT_DIR$/lockscreen/serializers.py" />
       </list>
     </option>
   </component>
@@ -532,16 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lockscreen/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lockscreen/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -578,6 +561,16 @@
           <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lockscreen/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
