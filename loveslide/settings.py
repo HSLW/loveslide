@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'whitenoise.runserver_nostatic',
     'django.contrib.staticfiles',
     'rest_framework',
-    'lockscreen',
+    'lockscreen.apps.LockscreenConfig',
+    'relation.apps.RelationConfig',
 ]
 
 MIDDLEWARE_CLASSES = [
