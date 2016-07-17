@@ -16,12 +16,12 @@ Including another URLconf
 from django.conf.urls import url, include
 from django.contrib import admin
 from rest_framework import routers
-from lockscreen import views
-from relation import views
+from relation.views import LikeViewSet
+from lockscreen.views import CardViewSet
 
 router = routers.DefaultRouter()
-router.register(r'allocation', views.CardViewSet)
-router.register(r'like_me', views.LikeViewSet)
+router.register(r'allocation', CardViewSet)
+router.register(r'like_me', LikeViewSet)
 admin.autodiscover()
 
 urlpatterns = [
