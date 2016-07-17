@@ -17,9 +17,11 @@ from django.conf.urls import url, include
 from django.contrib import admin
 from rest_framework import routers
 from lockscreen import views
+from relation import views
 
 router = routers.DefaultRouter()
 router.register(r'allocation', views.CardViewSet)
+router.register(r'like_me', views.LikeViewSet)
 admin.autodiscover()
 
 urlpatterns = [
