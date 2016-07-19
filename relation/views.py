@@ -17,7 +17,7 @@ class LikeViewSet(viewsets.ReadOnlyModelViewSet):
 
     def retrieve(self, request, pk=None):
         queryset = Like.objects.all()
-        user = get_object_or_404(queryset, user2=1)
+        user = get_object_or_404(queryset, user2=pk)
         serializer = LikeSerializer(user)
         return Response(serializer.data)
 
