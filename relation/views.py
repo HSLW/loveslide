@@ -16,7 +16,9 @@ class LikeViewSet(viewsets.ReadOnlyModelViewSet):
     serializer_class = LikeSerializer
 
     def retrieve(self, request, pk=None):
-        return Like.objects.filter(user2=pk)
+        queryset = Like.objects.filter()
+        serializer = LikeSerializer(queryset)
+        return Response(serializer.data)
 
 
 class CardViewSet(object):
